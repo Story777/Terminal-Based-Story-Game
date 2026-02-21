@@ -27,6 +27,8 @@ void part2a()
 
             showMessage("You decide to just sleep to cool your mind.", 4);
 
+            part3aa();
+
             break;
 
 
@@ -44,6 +46,8 @@ void part2a()
 
             showMessage("When you open your eyes, you see you're at your house, still wondering "
                         "what happened.", 5);
+
+            part3ab();
 
             break;
 
@@ -63,6 +67,8 @@ void part2a()
                         "but they couldn't find anything.", 6);
 
             showMessage("They then leave and you decide to just head back home and rest.", 5);
+
+            part3ac();
 
             break;
     }
@@ -92,6 +98,8 @@ void part2b()
                         "decide to give up.", 6);
             
             showMessage("You then decide to take some rest after the tiring search.", 5);
+
+            part3ba();
             
             break;
 
@@ -112,6 +120,8 @@ void part2b()
 
             showMessage("You decide to just take rest and go sleep.", 4);
 
+            part3bb();
+
             break;
 
         case 'c':
@@ -125,6 +135,8 @@ void part2b()
             showMessage("You binge-watch for about 2 more hours.", 5);
 
             showMessage("After you're done, you decide to get some sleep and head to bed.", 5);
+
+            part3bc();
 
             break;
     }
@@ -154,6 +166,8 @@ void part2c()
             showMessage("You decide to head out after playing in your house for "
                         "so long.", 6);
 
+            part3ca();
+
             break;
 
 
@@ -173,6 +187,8 @@ void part2c()
             
             showMessage("You get worried it might still be in your house.", 5);
 
+            part3cb();
+
             break;
 
 
@@ -188,6 +204,8 @@ void part2c()
 
             showMessage("The creature, standing behind one of your friends, staring at "
                         "you.", 6);
+
+            part3cc();
                 
             break;
     }
