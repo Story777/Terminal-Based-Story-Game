@@ -13,7 +13,18 @@ void part3aa()
     char decision = getResponse("> ", { 'a', 'b', 'c' });
     switch (decision) {
         case 'a':
-            showMessage("...", 1);
+            showMessage("You wake up after 2 hours, with a bad headache.", 4);
+
+            showMessage("You decide to investigate your house completely.", 4);
+
+            showMessage("You buy some paranormal-hunting devices, to help you with your "
+                        "investigation.", 5);
+            
+            showMessage("As you're investigating, you hear some weird screeching noises, "
+                        "although, very faint.", 5);
+            
+            showMessage("When you get to the kitchen, you see it. The creature. Staring "
+                        "straight at you.", 5);
 
             break;
 
