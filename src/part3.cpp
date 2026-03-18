@@ -30,7 +30,17 @@ void part3aa()
 
 
         case 'b':
-            showMessage("...", 1);
+            showMessage("You wake up and decide to take things up a notch.", 4);
+
+            showMessage("You search for mediums (people who can talk with spirits) online.", 4);
+
+            showMessage("You find one at a cheap price and decide to call them.", 4);
+
+            showMessage("They arrive 1 hour later, and you tell them about everything "
+                        "that has happened.", 5);
+
+            showMessage("They agree to help and tell you to wait in the living room "
+                        "while they communicate with the spirits.", 7);
 
             break;
 
