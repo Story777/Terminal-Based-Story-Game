@@ -46,7 +46,21 @@ void part3aa()
 
 
         case 'c':
-            showMessage("...", 1);
+            showMessage("You wake up after 2 hours.", 4);
+
+            showMessage("You decide to just ignore this monster-thing and go on with "
+                        "your day.", 5);
+
+            showMessage("You drink coffee, eat, and sit down to watch TV.", 4);
+
+            showMessage("Suddenly, the news comes on, without any warning.", 4);
+
+            showMessage("You get frightened, but see the news.", 4);
+
+            showMessage("You see it. The creature on the news, absorbing anyone "
+                        "it comes across.", 5);
+            
+            showMessage("You wonder, why didn't it harm you? ", 4);
 
             break;
     }
