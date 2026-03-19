@@ -96,7 +96,14 @@ void part3ab()
 
 
         case 'b':
-            showMessage("...", 1);
+            showMessage("You decide to check if your house is normal or not.", 4);
+
+            showMessage("You look around, all rooms, furniture, seems the same.", 4);
+
+            showMessage("You take a sigh of relief and decide to chill.", 4);
+
+            showMessage("You suddenly get a call from your friend, asking for you "
+                        "to come see something he made.", 6);
 
             break;
 
