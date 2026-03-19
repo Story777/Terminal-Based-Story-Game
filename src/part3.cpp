@@ -139,7 +139,14 @@ void part3ac()
     char decision = getResponse("> ", { 'a', 'b', 'c' });
     switch (decision) {
         case 'a':
-            showMessage("...", 1);
+            showMessage("You decide to calm your mind by binge-watching a show.", 4);
+
+            showMessage("As you're watching, you get a call from your friend.", 4);
+
+            showMessage("He tells you that he wants to show you something that he "
+                        "made.", 5);
+
+            showMessage("You're curious on what this could be.", 4);
 
             break;
 
