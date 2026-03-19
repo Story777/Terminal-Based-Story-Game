@@ -109,7 +109,18 @@ void part3ab()
 
 
         case 'c':
-            showMessage("...", 1);
+            showMessage("You decide to buy some paranormal-detecting devices online.", 4);
+
+            showMessage("They arrive after a few days, and you use them to detect "
+                        "anything unusual.", 5);
+
+            showMessage("You check every room, but nothing seems wrong.", 4);
+
+            showMessage("You feel relieved and decide to take rest, when suddenly "
+                        "your friend calls you.", 5);
+
+            showMessage("He tells you that he made something and wants to show it "
+                        "to you.", 5);
 
             break;
     }
