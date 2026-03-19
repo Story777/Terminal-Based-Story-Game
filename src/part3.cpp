@@ -289,9 +289,9 @@ void part3cc()
 {
     showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
-    showMessage("A. ...", 1);
-    showMessage("B. ...", 1);
-    showMessage("C. ...", 1);
+    showMessage("A. Tell your friends.", 1);
+    showMessage("B. Take a photo of it.", 1);
+    showMessage("C. Try to catch it.", 1);
 
 
     char decision = getResponse("> ", { 'a', 'b', 'c' });
