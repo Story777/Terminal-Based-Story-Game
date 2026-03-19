@@ -227,9 +227,9 @@ void part3ca()
 {
     showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
-    showMessage("A. ...", 1);
-    showMessage("B. ...", 1);
-    showMessage("C. ...", 1);
+    showMessage("A. Go to a park.", 1);
+    showMessage("B. Go to the mall.", 1);
+    showMessage("C. Go to a friend's house.", 1);
 
 
     char decision = getResponse("> ", { 'a', 'b', 'c' });
