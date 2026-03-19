@@ -165,7 +165,17 @@ void part3ac()
 
 
         case 'c':
-            showMessage("...", 1);
+            showMessage("You decide to call a friend of yours to chill with.", 4);
+
+            showMessage("You wait around 20 minutes for him to arrive.", 4);
+
+            showMessage("When he arrives, you guys decide to watch a movie "
+                        "together.", 5);
+
+            showMessage("After you're done watching, your friend tells you that "
+                        "he wants to show you something which he made at his house.", 9);
+
+            showMessage("He tells you, that once you're ready, he can show you.", 5);
 
             break;
     }
