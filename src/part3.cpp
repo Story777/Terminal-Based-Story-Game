@@ -130,9 +130,9 @@ void part3ac()
 void part3ba()
 {
     showMessage("What will you do now?", 2);
-    showMessage("A. ...", 1);
-    showMessage("B. ...", 1);
-    showMessage("C. ...", 1);
+    showMessage("A. Investigate again as a last resort.", 1);
+    showMessage("B. Call a paranormal-hunting crew.", 1);
+    showMessage("C. Try to forget about it.", 1);
 
 
     char decision = getResponse("> ", { 'a', 'b', 'c' });
