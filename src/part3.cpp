@@ -152,8 +152,15 @@ void part3ac()
 
 
         case 'b':
-            showMessage("...", 1);
+            showMessage("You get hungry after so much back-and-forth.", 4);
 
+            showMessage("You decide to order something to eat.", 4);
+
+            showMessage("As you're about to order, you get a call from your friend.", 4);
+
+            showMessage("You pick it up, and he tells you that he wants to show you "
+                        "something he made.", 5);
+            
             break;
 
 
