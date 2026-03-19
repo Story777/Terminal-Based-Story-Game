@@ -80,7 +80,17 @@ void part3ab()
     char decision = getResponse("> ", { 'a', 'b', 'c' });
     switch (decision) {
         case 'a':
-            showMessage("...", 1);
+            showMessage("You decide to ignore what just happened and go on with your "
+                        "day.", 5);
+
+            showMessage("You're making coffee, when suddenly, your phone rings.", 4);
+
+            showMessage("It's your friend, and when you pick it up, he talks about how "
+                        "he wants you to see something he made.", 7);
+
+            showMessage("You get interested on what he made, and ask him.", 4);
+
+            showMessage("He tells you it's a secret and wants you to come fast.", 4);
 
             break;
 
