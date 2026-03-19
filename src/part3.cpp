@@ -258,9 +258,9 @@ void part3cb()
 {
     showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
-    showMessage("A. ...", 1);
-    showMessage("B. ...", 1);
-    showMessage("C. ...", 1);
+    showMessage("A. Call the police.", 1);
+    showMessage("B. Investigate your house.", 1);
+    showMessage("C. Try to stay calm and wait.", 1);
 
 
     char decision = getResponse("> ", { 'a', 'b', 'c' });
