@@ -4,6 +4,7 @@
 
 void part3aa()
 {
+    showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
     showMessage("A. Investigate your house when you wake up.", 1);
     showMessage("B. Call a real medium to know if there's really something supernatural.", 1);
@@ -69,6 +70,7 @@ void part3aa()
 
 void part3ab()
 {
+    showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
     showMessage("A. Ignore it.", 1);
     showMessage("B. See if everything is ok in your house.", 1);
@@ -99,6 +101,7 @@ void part3ab()
 
 void part3ac()
 {
+    showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
     showMessage("A. Chill and watch something on the TV.", 1);
     showMessage("B. Order something to eat.", 1);
@@ -129,6 +132,7 @@ void part3ac()
 
 void part3ba()
 {
+    showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
     showMessage("A. Investigate again as a last resort.", 1);
     showMessage("B. Call a paranormal-hunting crew.", 1);
@@ -159,6 +163,7 @@ void part3ba()
 
 void part3bb()
 {
+    showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
     showMessage("A. ...", 1);
     showMessage("B. ...", 1);
@@ -189,6 +194,7 @@ void part3bb()
 
 void part3bc()
 {
+    showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
     showMessage("A. ...", 1);
     showMessage("B. ...", 1);
@@ -219,6 +225,7 @@ void part3bc()
 
 void part3ca()
 {
+    showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
     showMessage("A. ...", 1);
     showMessage("B. ...", 1);
@@ -249,6 +256,7 @@ void part3ca()
 
 void part3cb()
 {
+    showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
     showMessage("A. ...", 1);
     showMessage("B. ...", 1);
@@ -279,6 +287,7 @@ void part3cb()
 
 void part3cc()
 {
+    showMessage("-------- PART 3 --------", 2);
     showMessage("What will you do now?", 2);
     showMessage("A. ...", 1);
     showMessage("B. ...", 1);
