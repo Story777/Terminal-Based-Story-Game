@@ -211,7 +211,20 @@ void part3ba()
 
 
         case 'b':
-            showMessage("...", 1);
+            showMessage("You decide to call a professional, paranormal-hunting crew.", 4);
+
+            showMessage("You look online for a bit, then find one which is cheap but, "
+                        "popular.", 5);
+
+            showMessage("You decide to call them, and they arrive a few hours later.", 4);
+
+            showMessage("You tell them what happened, and they search your entire "
+                        "house and use their tools as well.", 7);
+
+            showMessage("Still, they couldn't find anything. They apologize and leave.", 4);
+
+            showMessage("Then, suddenly, your friend calls you and tells you that, "
+                        "he wants to show you something he made.", 8);
 
             break;
 
