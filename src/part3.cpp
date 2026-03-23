@@ -194,7 +194,18 @@ void part3ba()
     char decision = getResponse("> ", { 'a', 'b', 'c' });
     switch (decision) {
         case 'a':
-            showMessage("...", 1);
+            showMessage("You decide to investigate again as a last resort.", 4);
+
+            showMessage("You do the same strategy of recording your investigation.", 4);
+
+            showMessage("Still, you find nothing. However...", 4);
+
+            showMessage("After the investigation, your friend calls you.", 4);
+
+            showMessage("You pick up and he tells you that he made something and wants "
+                        "to show you.", 5);
+
+            showMessage("You're curious on what it could be.", 4);
 
             break;
 
