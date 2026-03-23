@@ -230,7 +230,18 @@ void part3ba()
 
 
         case 'c':
-            showMessage("...", 1);
+            showMessage("You get tired of investigating, and try to just forget "
+                        "this whole thing.", 5);
+
+            showMessage("You're doing your usual daily work, when suddenly, your "
+                        "friend calls you.", 5);
+
+            showMessage("You pick it up, and he tells you that, he made something "
+                        "cool and wants to show it to you.", 8);
+
+            showMessage("You're curious on what it could be, and ask him.", 4);
+
+            showMessage("He tells you that it's a surprise.", 4);
 
             break;
     }
